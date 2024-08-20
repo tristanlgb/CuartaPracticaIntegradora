@@ -1,0 +1,19 @@
+{{#extend "main"}}
+  <h1>Cart</h1>
+  <ul>
+    {{#each cart.products}}
+      <li>{{this.product.name}} - {{this.quantity}}
+        <form action="/api/carts/{{cart._id}}/products/{{this.product._id}}" method="post">
+          <input type="number" name="quantity" value="{{this.quantity}}">
+          <button type="submit">Update Quantity</button>
+        </form>
+        <form action="/api/carts/{{cart._id}}/products/{{this.product._id}}" method="post">
+          <button type="submit">Remove</button>
+        </form>
+      </li>
+    {{/each}}
+  </ul>
+  <form action="/api/carts/{{cart._id}}" method="post">
+    <button type="submit">Clear Cart</button>
+  </form>
+{{/extend}}

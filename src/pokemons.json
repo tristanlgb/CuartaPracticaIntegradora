@@ -1,0 +1,12 @@
+[
+    { "name": "Bulbasaur", "price": 10, "category": "Grass" },
+    { "name": "Charmander", "price": 12, "category": "Fire" },
+    { "name": "Squirtle", "price": 11, "category": "Water" },
+    { "name": "Pikachu", "price": 15, "category": "Electric" },
+    { "name": "Jigglypuff", "price": 9, "category": "Fairy" },
+    { "name": "Eevee", "price": 14, "category": "Normal" },
+    { "name": "Snorlax", "price": 20, "category": "Normal" },
+    { "name": "Mewtwo", "price": 25, "category": "Psychic" },
+    { "name": "Gyarados", "price": 22, "category": "Water" },
+    { "name": "Dragonite", "price": 30, "category": "Dragon" }
+]
